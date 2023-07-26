@@ -2,6 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Bio from './bio'
 
+/*
+        <p>
+          A fully responsive site template designed by <a href="https://donboulton.com">Don Boulton</a> and released
+          <br />
+          for free under a <a href="https://donboulton.com/privacy">BSD</a> license.
+        </p>
+*/
+
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
@@ -9,12 +17,8 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension V4</h1>
-        <p>
-          A fully responsive site template designed by <a href="https://donboulton.com">Don Boulton</a> and released
-          <br />
-          for free under a <a href="https://donboulton.com/privacy">BSD</a> license.
-        </p>
+        <h1>Observ.ar</h1>
+
       </div>
     </div>
     <nav>
@@ -26,7 +30,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Acerca de la plataforma
           </a>
         </li>
         <li>
@@ -36,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Porqué observamos
           </a>
         </li>
         <li>
@@ -46,17 +50,17 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            ¿Cómo observamos?
           </a>
         </li>
         <li>
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('contact')
+              props.onOpenArticle('plataforma')
             }}
           >
-            Contact
+            Plataforma geoespacial
           </a>
         </li>
       </ul>

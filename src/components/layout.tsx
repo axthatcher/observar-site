@@ -35,8 +35,8 @@ const Layout = ({ children, location }) => {
           <Script
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'Donald Boulton Personal Web Site' },
-              { name: 'keywords', content: 'Donald Boulton, personal' },
+              { name: 'description', content: 'Observ.ar' },
+              { name: 'keywords', content: 'Observ.ar, Observar, plataforma' },
             ]}
           >
             <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
@@ -63,7 +63,7 @@ const Layout = ({ children, location }) => {
               textShadow: '2px 2px black',
             }}
           >
-            Don Boulton uses cookies for a better user experience.{' '}
+            Observ.ar uses cookies for a better user experience.{' '}
             <span
               style={{
                 fontSize: '14px',
