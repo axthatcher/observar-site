@@ -30,7 +30,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Acerca de la plataforma
+            Acerca de
           </a>
         </li>
         <li>
@@ -40,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Porqué observamos
+            Por qué obervamaos?
           </a>
         </li>
         <li>
@@ -50,7 +50,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            ¿Cómo observamos?
+            Método
           </a>
         </li>
         <li>
@@ -60,7 +60,7 @@ const Header = props => (
               props.onOpenArticle('plataforma')
             }}
           >
-            Plataforma geoespacial
+            Plataforma
           </a>
         </li>
       </ul>
