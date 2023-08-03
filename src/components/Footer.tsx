@@ -9,7 +9,7 @@ const Footer = props => (
       &copy; Observ.ar{' '}
       
       {'- '}
-      Built with Gatsby
+      Construido con Gatsby
     </p>
   </footer>
 )
