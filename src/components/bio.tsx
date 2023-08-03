@@ -4,7 +4,15 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Bio = () => {
   return (
     <div className="bio">
-      <StaticImage
+      
+    </div>
+  )
+}
+
+export default Bio
+
+/*
+<StaticImage
         className="bio-avatar"
         objectPosition="50% 50%"
         formats={['auto', 'webp']}
@@ -12,8 +20,4 @@ const Bio = () => {
         quality={95}
         alt="Profile Picture"
       />
-    </div>
-  )
-}
-
-export default Bio
+*/

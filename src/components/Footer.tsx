@@ -6,27 +6,10 @@ import { SiGnuprivacyguard } from '@react-icons/all-files/si/SiGnuprivacyguard'
 const Footer = props => (
   <footer id="footer" style={props.timeout ? { display: 'none' } : {}}>
     <p className="copyright">
-      &copy; Dimension V4{' '}
-      <span>
-        <RiHeart2Line
-          style={{
-            lineHeight: 'inherit',
-            fontSize: '0.8rem',
-            color: 'red',
-          }}
-        />
-      </span>{' '}
-      Gatsby Starter{' '}
-      <span>
-        <SiGnuprivacyguard
-          style={{
-            lineHeight: 'inherit',
-            fontSize: '0.8rem',
-            color: 'gray',
-          }}
-        />
-      </span>{' '}
-      <a href="/privacy">Privacy</a> Built with: <a href="https://www.gatsbyjs.org/">Gatsby.js v5.4.2</a>
+      &copy; Observ.ar{' '}
+      
+      {'- '}
+      Built with Gatsby
     </p>
   </footer>
 )

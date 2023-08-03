@@ -2,11 +2,11 @@ import type { GatsbyConfig } from 'gatsby'
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: 'Donald Boulton - Dimension V4',
-    author: 'Donald Boulton',
-    siteUrl: 'https://donboulton.com',
+    title: 'Observ.ar',
+    author: 'Observ.ar',
+    siteUrl: 'https://observar.gatsbyjs.io',
     siteImage: '/static/assets/bg.jpg',
-    description: 'A Gatsby.js V4 Starter based on Dimension by HTML5 UP',
+    description: 'Una plataforma para la observación y análisis sobre la actividad de explotación hidrocarburifera',
   },
   plugins: [
     {
@@ -78,7 +78,7 @@ const config: GatsbyConfig = {
     {
       resolve: 'gatsby-plugin-offline',
       options: {
-        precachePages: ['/*', '/privacy'],
+        precachePages: ['/*'],
         workboxConfig: {
           importWorkboxFrom: 'cdn',
         },

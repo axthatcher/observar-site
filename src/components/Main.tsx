@@ -7,6 +7,7 @@ import { RiTwitterFill } from '@react-icons/all-files/ri/RiTwitterFill'
 import { RiInstagramFill } from '@react-icons/all-files/ri/RiInstagramFill'
 import { RiGithubFill } from '@react-icons/all-files/ri/RiGithubFill'
 import { RiYoutubeFill } from '@react-icons/all-files/ri/RiYoutubeFill'
+import ShinyAppEmbed from './ShinyAppEmbed'
 
 const Main = props => {
   const close = (
@@ -159,7 +160,32 @@ const Main = props => {
       >
           <h2 className="major">Plataforma</h2>
 
-        <h3>Ubicacion del usuario</h3>
+        <ShinyAppEmbed></ShinyAppEmbed>
+        
+        {close}
+      </article>
+
+    </div>
+  )
+}
+
+Main.propTypes = {
+  route: PropTypes.object,
+  article: PropTypes.string,
+  articleTimeout: PropTypes.bool,
+  onCloseArticle: PropTypes.func,
+  timeout: PropTypes.bool,
+  setWrapperRef: PropTypes.func.isRequired,
+}
+
+export default Main
+
+
+
+
+/*    PLATAFORMA TEXT
+
+<h3>Ubicacion del usuario</h3>
         <p><b>En todo momento el usuario pueda hacer un “clic” con la imagen de fondo y marcar un punto y que quede marcado.  cuando va encendiendo o apagando las capas de indicadores, este marcador no se mueve y ayuda a la ubicación de interes.</b>
         </p>
         <p><b>La imagen de fondo seria bueno el usuario pueda elegir la que esta ahora (no se si es bing terreno) y google satelite.</b>
@@ -252,20 +278,4 @@ const Main = props => {
         <p>
         Como es una plataforma para la toma de decisiones y para observar, rápidamente puedo llevar a ese informe a una presentación y demostrar lo que digo a grandes rasgos. De manera grafica. Sugiero los siguiente formatos.
         </p>
-        {close}
-      </article>
-
-    </div>
-  )
-}
-
-Main.propTypes = {
-  route: PropTypes.object,
-  article: PropTypes.string,
-  articleTimeout: PropTypes.bool,
-  onCloseArticle: PropTypes.func,
-  timeout: PropTypes.bool,
-  setWrapperRef: PropTypes.func.isRequired,
-}
-
-export default Main
+*/

@@ -71,12 +71,7 @@ const Layout = ({ children, location }) => {
                 marginLeft: '20px',
               }}
             >
-              <span className="icon -lock">
-                <SiGnuprivacyguard />
-              </span>{' '}
-              <Link to="https://publiuslogic.com/privacy" alt="Privacy Page">
-                Privacy Page
-              </Link>
+              
             </span>
           </CookieConsent>
         </>
