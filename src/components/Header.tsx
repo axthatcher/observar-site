@@ -57,10 +57,10 @@ const Header = props => (
           <a
             href="javascript:;"
             onClick={() => {
-              props.onOpenArticle('plataforma')
+              //props.onOpenArticle('plataforma')
             }}
           >
-            Plataforma
+            <a href="https://observ-ar.shinyapps.io/shinyapp/" target="_blank">Plataforma</a>
           </a>
         </li>
       </ul>

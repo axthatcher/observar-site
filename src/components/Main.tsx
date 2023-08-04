@@ -160,7 +160,7 @@ const Main = props => {
       >
           <h2 className="major">Plataforma</h2>
 
-        <ShinyAppEmbed></ShinyAppEmbed>
+        
         
         {close}
       </article>
