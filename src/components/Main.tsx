@@ -160,7 +160,113 @@ const Main = props => {
       >
           <h2 className="major">Plataforma</h2>
 
-        
+        <h3>Caracterización de pozos</h3>
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://vaca-muerta-sei.projects.earthengine.app/view/pozos-de-hidrocarburos"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Pozos de hidrocarburos"/>
+            </Link>
+          </li>
+        </ul>
+        <p>
+        Observamos la cantidad de pozos que se encuentran en las cuencas del Rio Negro y Neuquén. Los datos de pozos fueron descargados de <a href="https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv">https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv</a>. Esta capa de información contiene número de pozos para el periodo de tiempo 1970 – 2022. Los puntos representan la ubicación de los pozos y los colores indican el tipo de recurso: convencional (naranja), no convencional (amarillo), y no informado (gris). También incluye las locaciones de pozos (polígonos negros) identificadas con inteligencia artificial usando imágenes de satélite Sentinel-2.
+        </p>
+        <p>
+        <br></br>
+        </p>
+
+        <h3>Indicador de interacción de pozos para riesgo subterráneo</h3>
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://vaca-muerta-sei.projects.earthengine.app/view/interaccion-de-pozos"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Interacción de pozos"/>
+            </Link>
+          </li>
+        </ul>
+        <p>
+        Este indicador toma en cuenta la interacción potencial entre pozos convencionales y no convencionales. Según la literatura, puede haber una probabilidad de 10% de interacción entre pozos no convencionales si los mismos se encuentran a una distancia menor a 1 km entre sí, mientras hay una probabilidad de 50% de interacción entre pozos no convencionales cuando la distancia es menor a 300 m entre pozos (Loveless, et al., 2019). Adicionalmente, el revestimiento de los pozos convencionales viejos en una zona de perforación, especialmente los pozos perforados en el siglo pasado pueden sufrir daños debido a las vibraciones o atravesamiento de la perforación de nuevos pozos tanto no convencionales como convencionales. Aquí mostramos polígonos de densidad de al menos un pozo dentro de un radio de un kilómetro entre pozos convencionales (naranja transparente) y no convencionales (amarillo transparente), y las zonas de superposición - interacción de los dos anteriores (rojo transparente). También mostramos la ubicación de dos pozos convencionales (diamantes negros) perforados en 1986 uno de gas y otro de petroleo convencionales surgentes que en octubre de 2022 comenzaron a derramar hidrocarburos al suelo y agua dentro de una chacra en Villa Manzano (polígono verde), que se describe en la nota: Denuncias por contaminación petrolera en Villa Manzano (2023).
+        </p>
+        <p>
+        <br></br>
+        </p>
+
+        <h3>Indicador de proximidad de pozos a ríos permanentes</h3>
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-rios"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Proximidad a ríos"/>
+            </Link>
+          </li>
+        </ul>
+        <p>
+        Los indicadores de proximidad a ríos y lagos son utilizados para evaluar el riesgo potencial de contaminación de estos. Se utilizaron las capas de información obtenidas del IGN (Instituto Nacional Geográfico de Argentina) y se calculó la distancia ente los pozos y los ríos y lagos. Las distancia límites de 1 km (mayor riesgo), 1 – 2 km (riesgo medio), > 3 km (Sin riesgo). Se basa en la metodología de Meng 2015. Este indicador espacial representa la distancia desde los pozos a los ríos permanentes de las cuencas. Los pozos que se encuentran a menos 1 km de distancia al rio indican que esa área tiene un alto riesgo potencial de contaminación comparado con las áreas del rio donde los pozos se ubican a más de 2 km de distancia.
+        </p>
+        <p>
+        Los puntos representan los pozos no convencionales de hidrocarburos y los pozos sumideros. Las líneas representan la distancia desde un pozo hacia el rio. Los colores indican el riesgo alto medio y bajo.
+        </p>
+        <p>
+        <br></br>
+        </p>
+
+        <h3>Indicador de proximidad de pozos a canales de riego</h3>
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-canales"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Proximidad a canales de riego"/>
+            </Link>
+          </li>
+        </ul>
+        <p>
+        El indicador de proximidad de pozos a canales de riego, revela cuales canales de riego tienen pozos cercanos. Este indicador representa la distancia de los pozos hacia los canales de riego del área productiva. están calculadas las distancias en líneas para los canales, y los tipos de canales el cuaternario y colector son los que tienen más riesgo con pozos a menos de 1 km de distancia en Fernández Oro.
+        </p>
+        <p>
+        <br></br>
+        </p>
+
+        <h3>Indicador de proximidad de pozos a localidades</h3>
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-localidades"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Proximidad a localidades"/>
+            </Link>
+          </li>
+        </ul>
+        <p>
+        La cercanía a los pozos podría incrementar el riesgo potencial de contaminación e impactos negativos en la salud y el ecosistema. Podemos observar que localidades tienen pozos cercanos hacia ellas.
+        </p>
+        <p>
+        Se descargo la capa de información de las localidades obtenida del IGN (Instituto Geográfico Nacional https://www.ign.gob.ar/ y se calculó la distancia desde los pozos hacia los puntos correspondientes a las localidades.
+        </p>
         
         {close}
       </article>

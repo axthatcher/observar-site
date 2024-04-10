@@ -6,7 +6,7 @@ return (
             <iframe
             src="https://observ-ar.shinyapps.io/shinyapp"
             width="100%"
-            height="1175"
+            height="895" //original value 1175
             frameBorder="0"
             ></iframe>
         </div>
