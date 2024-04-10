@@ -160,7 +160,7 @@ const Main = props => {
       >
           <h2 className="major">Plataforma</h2>
 
-        <h3>Caracterización de pozos</h3>
+        <h3>Indicadores Espaciales de Riesgo Ambiental</h3>
         <ul className="icons">
           <li>
             <Link
