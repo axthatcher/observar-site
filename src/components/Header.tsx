@@ -40,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Por qué obervamaos?
+            Por qué observamos?
           </a>
         </li>
         <li>

@@ -164,7 +164,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://vaca-muerta-sei.projects.earthengine.app/view/pozos-de-hidrocarburos"
+              to="https://observ-ar.projects.earthengine.app/view/pozos-de-hidrocarburos"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -185,7 +185,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://vaca-muerta-sei.projects.earthengine.app/view/interaccion-de-pozos"
+              to="https://observ-ar.projects.earthengine.app/view/interaccion-de-pozos"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -206,7 +206,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-rios"
+              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-rios"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -230,7 +230,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-canales"
+              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-canales"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
@@ -251,7 +251,7 @@ const Main = props => {
         <ul className="icons">
           <li>
             <Link
-              to="https://vaca-muerta-sei.projects.earthengine.app/view/proximidad-a-localidades"
+              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-localidades"
               className="icon"
               rel="noopener noreferrer"
               target="_blank"
