@@ -72,7 +72,7 @@ const Main = props => {
         className={`${props.article === 'work' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
-          <h2 className="major">Por qué obervamos?</h2>
+          <h2 className="major">Por qué observamos?</h2>
 
         <h3>Objetivos del proyecto</h3>
         <p></p>
