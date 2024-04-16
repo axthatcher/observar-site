@@ -177,17 +177,7 @@ const Main = props => {
 
         <h3>Caracterización de pozos</h3>
         <ul className="icons">
-          <li>
-            <Link
-              to="https://observ-ar.projects.earthengine.app/view/pozos-de-hidrocarburos"
-              className="icon"
-              rel="noopener noreferrer"
-              target="_blank"
-              area-label="Bibwoe"
-            >
-              <input type="button" value="Pozos de hidrocarburos ►"/>
-            </Link>
-          </li>
+          <a class="linkit" href="https://observ-ar.projects.earthengine.app/view/pozos-de-hidrocarburos" target="_blank">Pozos de hidrocarburos ►</a>
         </ul>
         <p>
         Observamos la cantidad de pozos que se encuentran en las cuencas de los ríos Limay, Rio Negro y Neuquén. Los datos de pozos fueron descargados de la base de la siguiente base de datos: <a href="https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv">https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv</a>. Esta capa de información contiene el número de pozos para el periodo de tiempo 1900 – 2023. Los puntos representan la ubicación de los pozos y los colores indican el tipo de recurso: convencional (naranja), no convencional (amarillo), y no informado (gris). También incluye las locaciones de pozos (polígonos negros) identificadas con inteligencia artificial usando imágenes de satélite Sentinel-2.
@@ -198,17 +188,7 @@ const Main = props => {
 
         <h3>Indicador de interacción de pozos para riesgo subterráneo</h3>
         <ul className="icons">
-          <li>
-            <Link
-              to="https://observ-ar.projects.earthengine.app/view/interaccion-de-pozos"
-              className="icon"
-              rel="noopener noreferrer"
-              target="_blank"
-              area-label="Bibwoe"
-            >
-              <input type="button" value="Interacción de pozos ►"/>
-            </Link>
-          </li>
+          <a class="linkit" href="https://observ-ar.projects.earthengine.app/view/interaccion-de-pozos" target="_blank">Interacción de pozos ►</a>
         </ul>
         <p>
         Este indicador toma en cuenta la interacción potencial entre pozos convencionales y no convencionales. Según la literatura, puede haber una probabilidad de 10% de interacción entre pozos no convencionales si los mismos se encuentran a una distancia menor a 1 km entre sí, mientras hay una probabilidad de 50% de interacción entre pozos no convencionales cuando la distancia es menor a 300 m entre pozos <a href="https://www.sciencedirect.com/science/article/abs/pii/S0301479719310588">(Loveless, et al., 2019)</a>. Adicionalmente, el revestimiento de los pozos convencionales viejos en una zona de perforación, especialmente los pozos perforados en el siglo pasado pueden sufrir daños debido a las vibraciones o atravesamiento de la perforación de nuevos pozos tanto no convencionales como convencionales. Aquí mostramos polígonos de densidad de al menos un pozo dentro de un radio de un kilómetro entre pozos convencionales (naranja transparente) y no convencionales (amarillo transparente), y las zonas de superposición - interacción de los dos anteriores (rojo transparente). También mostramos la ubicación de dos pozos convencionales (diamantes negros) perforados en 1986 uno de gas y otro de petróleo convencional surgentes que en octubre de 2022 comenzaron a derramar hidrocarburos al suelo y agua dentro de una chacra en Villa Manzano (polígono verde), que se describe en la nota: <a href="https://www.rionegro.com.ar/sociedad/tension-cruce-de-denuncias-y-una-chacra-bajo-custodia-en-rio-negro-por-una-remediacion-petrolera-3089741/">Denuncias por contaminación petrolera en Villa Manzano (2023)</a>.
@@ -219,17 +199,7 @@ const Main = props => {
 
         <h3>Indicador de proximidad de pozos a ríos permanentes</h3>
         <ul className="icons">
-          <li>
-            <Link
-              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-rios"
-              className="icon"
-              rel="noopener noreferrer"
-              target="_blank"
-              area-label="Bibwoe"
-            >
-              <input type="button" value="Proximidad a ríos ►"/>
-            </Link>
-          </li>
+          <a class="linkit" href="https://observ-ar.projects.earthengine.app/view/proximidad-a-rios" target="_blank">Proximidad a ríos ►</a>
         </ul>
         <p>
         Los indicadores de proximidad a ríos y lagos son utilizados para evaluar el riesgo potencial de contaminación de estos. Se utilizaron las capas de información obtenidas del Instituto Nacional Geográfico de Argentina (IGN) y se calculó la distancia entre los pozos, los ríos y lagos, las distancias límites son: de 1 km radial (mayor riesgo), 1 – 2 km radial (riesgo medio), > 3 km radial (bajo riesgo) basadas en la metodología de <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969715001667">Meng 2015</a>. Este indicador espacial representa la distancia desde los pozos a los ríos permanentes de las cuencas hídricas, los pozos que se encuentran a menos 1 km de distancia al rio indican que esa área tiene un alto riesgo potencial de contaminación comparado con las áreas del rio donde los pozos se ubican a más de 3 km de distancia.
@@ -243,17 +213,7 @@ const Main = props => {
 
         <h3>Indicador de proximidad de pozos a canales de riego</h3>
         <ul className="icons">
-          <li>
-            <Link
-              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-canales"
-              className="icon"
-              rel="noopener noreferrer"
-              target="_blank"
-              area-label="Bibwoe"
-            >
-              <input type="button" value="Proximidad a canales de riego ►"/>
-            </Link>
-          </li>
+          <a class="linkit" href="https://observ-ar.projects.earthengine.app/view/proximidad-a-canales" target="_blank">Proximidad a canales de riego ►</a>
         </ul>
         <p>
         El indicador de proximidad de pozos a canales de riego, revela cuales canales de riego tienen pozos cercanos. Este indicador representa la distancia de los pozos hacia los canales de riego del área productiva, están calculadas las distancias en líneas para los canales.
@@ -264,17 +224,7 @@ const Main = props => {
 
         <h3>Indicador de proximidad de pozos a localidades</h3>
         <ul className="icons">
-          <li>
-            <Link
-              to="https://observ-ar.projects.earthengine.app/view/proximidad-a-localidades"
-              className="icon"
-              rel="noopener noreferrer"
-              target="_blank"
-              area-label="Bibwoe"
-            >
-              <input type="button" value="Proximidad a localidades ►"/>
-            </Link>
-          </li>
+          <a class="linkit" href="https://observ-ar.projects.earthengine.app/view/proximidad-a-localidades" target="_blank">Proximidad a localidades ►</a>
         </ul>
         <p>
         La cercanía a los pozos podría incrementar el riesgo potencial de contaminación e impactos negativos en la salud y el ecosistema. Se descargo la capa de información de las localidades obtenida del IGN (Instituto Geográfico Nacional <a href="https://www.ign.gob.ar/">https://www.ign.gob.ar/</a> y se calculó la distancia desde los pozos hacia los puntos correspondientes a las localidades.
@@ -427,4 +377,20 @@ export default Main
         <p>
         Como es una plataforma para la toma de decisiones y para observar, rápidamente puedo llevar a ese informe a una presentación y demostrar lo que digo a grandes rasgos. De manera grafica. Sugiero los siguiente formatos.
         </p>
+*/
+
+/* Old Button Style
+        <ul className="icons">
+          <li>
+            <Link
+              to="https://observ-ar.projects.earthengine.app/view/pozos-de-hidrocarburos"
+              className="icon"
+              rel="noopener noreferrer"
+              target="_blank"
+              area-label="Bibwoe"
+            >
+              <input type="button" value="Pozos de hidrocarburos ►"/>
+            </Link>
+          </li>
+        </ul>
 */
