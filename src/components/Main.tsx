@@ -296,14 +296,12 @@ const Main = props => {
         <h2 className="major">Contáctanos</h2>
         <form
           className="contact-form"
-          action="https://api.web3forms.com/submit"
           name="contact"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="access_key" value="d4f9a4a7-455b-419b-a6e2-dd98a961e2ce" />
-          <input type="hidden" name="redirect" value="https://observar.netlify.app/gracias" />
+
           
           <input type="hidden" name="form-name" value="contact" />
           <input type="hidden" name="bot-field" id="honeypot" />
