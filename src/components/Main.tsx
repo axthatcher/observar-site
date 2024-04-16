@@ -317,7 +317,7 @@ const Main = props => {
           </div>
           <div className="field">
             <label htmlFor="message">Mensaje</label>
-            <textarea name="message" id="message" rows="4"></textarea>
+            <textarea name="message" name="message" id="message" rows="4"></textarea>
           </div>
           <ul className="actions">
             <li>
