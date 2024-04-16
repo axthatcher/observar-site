@@ -293,34 +293,38 @@ const Main = props => {
         className={`${props.article === 'contact' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
-        <h2 className="major">Contact Form</h2>
+        <h2 className="major">Contáctanos</h2>
         <form
           className="contact-form"
-          action="/thanks"
+          action="https://api.web3forms.com/submit"
           name="contact"
           method="POST"
           data-netlify="true"
           data-netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="access_key" value="d4f9a4a7-455b-419b-a6e2-dd98a961e2ce" />
+          <input type="hidden" name="redirect" value="https://observar.netlify.app/gracias" />
+          
+          <input type="hidden" name="Form Name" value="Observ.ar Contact" />
+          <input type="hidden" name="bot-field" id="honeypot" />
           <div className="field half first">
-            <label htmlFor="name">Name</label>
+            <label htmlFor="name">Nombre</label>
             <input type="text" name="name" id="name" />
           </div>
           <div className="field half">
-            <label htmlFor="email">Email</label>
+            <label htmlFor="email">Correo Electrónico</label>
             <input type="text" name="email" id="email" />
           </div>
           <div className="field">
-            <label htmlFor="message">Message</label>
+            <label htmlFor="message">Mensaje</label>
             <textarea name="message" id="message" rows="4"></textarea>
           </div>
           <ul className="actions">
             <li>
-              <input type="submit" value="Send Message" className="special" />
+              <input type="submit" value="Enviar" className="special" />
             </li>
             <li>
-              <input type="reset" value="Reset" />
+              <input type="reset" value="Borrar" />
             </li>
           </ul>
         </form>

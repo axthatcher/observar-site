@@ -63,6 +63,16 @@ const Header = props => (
             Plataforma
           </a>
         </li>
+        <li>
+          <a
+            href="javascript:;"
+            onClick={() => {
+              props.onOpenArticle('contact')
+            }}
+          >
+            Contáctanos
+          </a>
+        </li>
       </ul>
     </nav>
   </header>
