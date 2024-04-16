@@ -306,7 +306,6 @@ const Main = props => {
           <input type="hidden" name="redirect" value="https://observar.netlify.app/gracias" />
           
           <input type="hidden" name="Form Name" value="Observ.ar Contact" />
-          <input type="hidden" name="bot-field" id="honeypot" />
           <div className="field half first">
             <label htmlFor="name">Nombre</label>
             <input type="text" name="name" id="name" />
