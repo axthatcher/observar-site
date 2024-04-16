@@ -40,9 +40,6 @@ const Main = props => {
         <p>
         <b>Transparente</b> porque es una plataforma que maneja los datos de manera transparente indicando el proceso de los datos bajo los estándares científicos de manejo de datos geoespaciales indicando sus fuentes, usos potenciales, y restricciones. También es transparente en la utilización de datos abiertos para potenciar el acceso público a la información utilizando los métodos de análisis con softwares de código libre.
         </p>
-        <p>
-        Porque es una plataforma que trabaja con datos abiertos de acceso público bajo los estándares científicos, indicando fuente de los datos, usos potenciales, restricciones y utilizando métodos de análisis con softwares de código libre.
-        </p>
         <h3>Objetivos</h3>
         <p></p>
         <p>
@@ -89,16 +86,16 @@ const Main = props => {
 
         <p></p>
         <p>
-        Observ.ar contiene información de la cuenca hidrográfica que se superpone a los campos de shale oil/gas de Vaca Muerta, alimentada por los ríos Limay y Neuquén, que confluyen formando el río Negro. Estacuenca hidrográfica posee diversos desarrollos hidroeléctricos (algunos más planificadas para el futuro), y, además, proporciona riego a 150.000 hectáreas de cultivo, en particular frutale como manzanas, peras, melocotones, ciruelas y uvas para vino <a href="https://mdpi.com/2073-4441/10/6/794">(Forni et al., 2018)</a>.
+        Observ.ar contiene información de la cuenca hidrográfica que se superpone a los campos de shale oil/gas de Vaca Muerta, alimentada por los ríos Limay y Neuquén, que confluyen formando el río Negro. Estacuenca hidrográfica posee diversos desarrollos hidroeléctricos (algunos más planificadas para el futuro), y, además, proporciona riego a 150.000 hectáreas de cultivo, en particular frutale como manzanas, peras, duraznos, ciruelas y uvas para vino <a href="https://mdpi.com/2073-4441/10/6/794">(Forni et al., 2018)</a>.
         </p>
         <p>
-        La mayor parte de las precipitaciones la cuenca del río Neuquén (3000 milímetros por año) ocurre en la parte superior de la cordillera, en la frontera con Chile, en la parte oriental, la precipitación media anual desciende significativamente a unos 200 mm (Ostertag & Cuellar, 2005). Los caudales de los ríos Neuquén, Limay y Negro generalmente disminuyen significativamente desde principios de verano hasta principios de otoño (diciembre a abril), cuando alcanzan su mínimo.
+        La mayor parte de las precipitaciones en la cuenca del río Neuquén (3000 milímetros por año) ocurre en la parte superior de la cordillera, en la frontera con Chile, en la parte oriental, la precipitación media anual desciende significativamente a unos 200 mm (Ostertag & Cuellar, 2005). Los caudales de los ríos Neuquén, Limay y Negro generalmente disminuyen significativamente desde principios de verano hasta principios de otoño (diciembre a abril), cuando alcanzan su mínimo.
         </p>
         <p>
         Esta cuenca provee agua para consumo urbano e industrial en la región; en 2010, la población estimada era de 968.338, que se estima que podría llegar a 1.601.762 en 2050 (Nadal et al.,2017), la mayor parte de esta población recibe agua de zonas donde en un futuro estarán dedicadas la producción de hidrocarburos. 
         </p>
         <p>
-        Por lo tanto, dentro de la cuenca neuquina coexisten la explotación de hidrocarburos por medio de la técnica de fracking y las áreas de producción agrícolas ubicadas principalmente en el Valle de los ríos, mientras que las áreas de explotación se encuentran principalmente distribuidas en las zonas altas de las cuencas, pero que con el crecimiento de la explotación hidrocarburífera, han avanzado sobre áreas productivas del Valle ubicándose dentro de ellas o en las cercanías.
+        Por lo tanto, dentro de la cuenca neuquina coexisten la explotación de hidrocarburos por medio de la técnica de fracking y las áreas de producción agrícolas ubicadas principalmente en el valle de los ríos, mientras que las áreas de explotación se encuentran principalmente distribuidas en las zonas altas de las cuencas, pero que con el crecimiento de la explotación hidrocarburífera, han avanzado sobre áreas productivas del valle ubicándose dentro de ellas o en las cercanías.
         </p>
         <p>
         A partir de la información publicada identificamos falta de datos y monitoreo. Observando en más detalle nos dimos cuenta de que el avance de la industria petrolera se ha hecho de una manera no planificada con posibles impactos a áreas naturales, áreas pobladas y zonas agrícolas. Luego del estudio de la información existente, las entrevisas a actores locales y visitas a campo pudimos observar conexiones claves entre el fracking y los recursos de las cuencas.
@@ -109,10 +106,7 @@ const Main = props => {
         <h3>Conexión entre el fracking y la calidad del agua</h3>
         <p></p>
         <p>
-        La extracción de agua para la industria petrolera en cantidad no es tan grande comparada con el uso del agua para la agricultura.  luego de analizar la informacion pudimos observar que se extrae agua de ríos y canales para la industria petrolera, en áreas muy cercanas a las producciones agrícolas. 
-        </p>
-        <p>
-        La cercanía de la infraestructura  hidrocarburífera a cuerpos de agua como ríos, lagos, embalses, canales de riego y drenaje o paleocauces, es muy importante, puesto que el manejo que se realice cerca de estas áreas puede afectar la calidad del agua, por lo que se deben tomar en cuenta los máximos estándares y controles para evitar posibles eventos que afecten la calidad del agua.
+        La cercanía de la infraestructura hidrocarburífera a cuerpos de agua como ríos, lagos, embalses, canales de riego y drenaje o paleocauces, es muy importante, puesto que el manejo que se realice cerca de estas áreas puede afectar la calidad del agua, por lo que se deben tomar en cuenta los máximos estándares y controles para evitar posibles eventos que afecten la calidad del agua.
         </p>
         <span className="image main">
             <StaticImage formats={['auto', 'webp']} src="../../static/assets/Foto2_manzana.jpg" alt="Manzana" />
@@ -120,7 +114,7 @@ const Main = props => {
         <h3>Cercanía a áreas productivas</h3>
         <p></p>
         <p>
-        Observamos también con las imágenes satelitales y visita al campo, la cercanía de algunas locaciones a zonas y establecimientos productivos. La cercanía de los pozos no convencionales a las áreas productivas, principalmente frutícolas, tiene más riego potencial de contaminación, ya sea por contacto con el agua subterránea a través de a napa, agua subterránea que es utilizada para consumo o defensa de heladas, la contaminación de los suelos o el aire podrían impactar en la calidad de la producción de esa chacra con las consecuencias económicas y ecológicas negativas que eso conlleva.
+        Observamos también con las imágenes satelitales y visita al campo, la cercanía de algunas locaciones a zonas y establecimientos productivos. La cercanía de los pozos no convencionales a las áreas productivas, principalmente frutícolas, tiene más potencial de riesgo de contaminación, ya sea por contacto con el agua subterránea a través de la napa freática o de los suelos o el aire que podrían impactar en la calidad de la producción de los cultivos con las consecuencias económicas y ecológicas negativas que eso conlleva.
         </p>
         <span className="image main">
             <StaticImage formats={['auto', 'webp']} src="../../static/assets/Foto_4.jpg" alt="Montana" />
@@ -131,10 +125,10 @@ const Main = props => {
         La producción de hidrocarburos con la técnica del fracking genera residuos líquidos y sólidos durante el su proceso. La noción “residuos petroleros” se refiere fundamentalmente a cutting (lodos de perforación) y flowblack (agua de retorno del fracking).  El flowback u agua residual es el residuo petrolero que consiste en la combinación de agua, arena y numerosos compuestos químicos. Puede contener metales pesados, sales y compuestos volátiles peligrosos.
         </p>
         <p>
-        La porción liquida es descartada en pozos sumideros donde se almacea y se cella, no regresando estos volumenes de agua al ciclo hidrológico natural, y la porción solida es procesada en plantas de tratamiento “basureros petroleros”.
+        La porción liquida es descartada en pozos sumideros donde se almacena y se cella, no regresando estos volúmenes de agua al ciclo hidrológico natural, y la porción solida es procesada en plantas de tratamiento “basureros petroleros”.
         </p>
         <p>
-        Donde se colocan estos residuos y cuál es el tratamiento de estos residuos no está clara en la información que encontramos. La distancia de las plantas de tratamiento a las áreas urbanas y corrientes de agua es muy importante, no tiene que estar muy cerca. ¿Dónde están los basureros petroleros? ¿Cuántos hay? ¿Dónde se encuentran?
+        Donde se colocan estos residuos y cuál es el tratamiento de estos no está clara en la información que encontramos. La distancia de las plantas de tratamiento a las áreas urbanas y corrientes de agua es muy importante.
         </p>
         {close}
       </article>
@@ -149,22 +143,22 @@ const Main = props => {
         <h3>¿Cómo observamos?</h3>
         <p></p>
         <p>
-        Investigamos como la expansión del fracking sobre las áreas de los recursos naturales podrían generan impactos a partir del análisis de riesgo ambiental desarrollando indicadores espaciales.
+        Investigamos como la expansión del fracking sobre las cuencas hidrológicas de los ríos Limay, Neuquén y Rio Negro podrían generan impactos a partir del análisis de riesgo ambiental desarrollando indicadores espaciales.
         </p>
         <p>
-        Los indicadores espaciales son mediciones que se realizan para entender como la distribución en el espacio de ciertos elementos están relacionados entre sí, sirven para evaluar el estado del territorio en relación a un riesgo potencial, revelando posibles vinculaciones y por ende potenciales riesgos.
+        Los indicadores espaciales son mediciones que se realizan para entender como la distribución en el espacio de ciertos elementos están relacionados entre sí, sirven para evaluar el estado del territorio con relación a un riesgo potencial, revelando posibles vinculaciones y por ende potenciales riesgos.
         </p>
         <p>
-        Para observar el riesgo ambiental en las cuencas hidrológicas del rio Neuquén y rio Negro realizamos indicadores espaciales basados en análisis de proximidad, que tiene en cuenta las distancias entre dos puntos, el punto donde se encuentra el “pozo” y el punto donde se encuentra el recurso que queremos analizar, ya sea el cuerpo de agua, las escuelas, las localidades. Estos indicadores espaciales fueron desarrollados con datos científicamente válidos y están basados en un buen conocimiento del sistema.
+        Para observar el riesgo ambiental en las cuencas hidrológicas realizamos indicadores espaciales basados en análisis de proximidad, que tiene en cuenta las distancias entre dos puntos, el punto donde se encuentra el “pozo” y el punto donde se encuentra el recurso que queremos analizar, ya sea el cuerpo de agua, las escuelas, las localidades. Estos indicadores espaciales fueron desarrollados con datos científicamente válidos y están basados en un buen conocimiento del sistema.
         </p>
         <p>
-        El análisis se realizó con Sistemas de información geográfica y base de datos disponibles de nación. La distancia, resultado de ese indicador, nos indica cuales áreas tienen riesgos potenciales de contaminación o impacto ambiental, las áreas cercanas a los pozos tendrían más riegos de contaminación comparado con las áreas más lejanas.
+        El análisis se realizó con sistemas de información geográfica y base de datos disponibles de nación. La distancia, resultado de ese indicador, nos indica cuales áreas tienen riesgos potenciales de contaminación o impacto ambiental, las áreas cercanas a los pozos tendrían más riegos de contaminación comparado con las áreas más lejanas.
         </p>
         <p>
         Este tipo de indicador fue aplicado en otras áreas con problemáticas similares y se basó en análisis a campo de calidad de agua, de contaminación de aire y reportes de hospitales en Pensylvania EEUU.
         </p>
         <p>
-        Para observar la expansión de los pozos utilizamos imágenes satelitales y modelos de elevación digital (MDE) para mapear la ubicación de los pozos en la cuenca, este método permite utilizar imágenes actualizadas y realizar un seguimiento del avance de la actividad del fracking. Usamos métodos de aprendizaje automático que incluyen algoritmos que permiten detectar las señales de las áreas que se preparan (locaciones) para ubicar los pozos de extracción, de esa manera, tenemos un método de monitoreo transparente que permite explorar el avance y las posibles vinculaciones. Utilizamos imágenes satelitales Planet que tienen una resolución espacial de 3 metros y 5 bandas espectrales, con imágenes disponibles cada 5 días. Estas imágenes tienen información de la reflectancia de los objetivos que se encuentran en la superficie del terreno y sirven para identificar los cambios de uso del suelo, observar los cambios que ocurren.
+        Para observar la expansión de los pozos utilizamos imágenes satelitales y modelos de elevación digital (MDE) para mapear la ubicación de los pozos en las cuencas, este método permite utilizar imágenes actualizadas y realizar un seguimiento del avance de la actividad del fracking. Usamos métodos de aprendizaje automático que incluyen algoritmos que permiten detectar las señales de las áreas que se preparan (locaciones) para ubicar los pozos de extracción, de esa manera, tenemos un método de monitoreo transparente que permite explorar el avance y las posibles vinculaciones. Utilizamos imágenes satelitales Planet que tienen una resolución espacial de 3 metros y 5 bandas espectrales, con imágenes disponibles cada 5 días. Estas imágenes tienen información de la reflectancia de la superficie del terreno y sirven para identificar los cambios de uso y las coberturas del suelo.
         </p>
         <h3>Imágenes satelitales Planet y Modelos de Aprendizaje Automático (Machine learning)</h3>
         <p></p>
@@ -196,7 +190,7 @@ const Main = props => {
           </li>
         </ul>
         <p>
-        Observamos la cantidad de pozos que se encuentran en las cuencas del Rio Negro y Neuquén. Los datos de pozos fueron descargados de Observamos la cantidad de pozos que se encuentran en las cuencas del Rio Negro y Neuquén. Los datos de pozos fueron descargados de <a href="https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv">https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv</a>. Esta capa de información contiene número de pozos para el periodo de tiempo 1900 – 2023. Los puntos representan la ubicación de los pozos y los colores indican el tipo de recurso: convencional (naranja), no convencional (amarillo), y no informado (gris). También incluye las locaciones de pozos (polígonos negros) identificadas con inteligencia artificial usando imágenes de satélite Sentinel-2.. Esta capa de información contiene número de pozos para el periodo de tiempo 1900 – 2023. Los puntos representan la ubicación de los pozos y los colores indican el tipo de recurso: convencional (naranja), no convencional (amarillo), y no informado (gris). También incluye las locaciones de pozos (polígonos negros) identificadas con inteligencia artificial usando imágenes de satélite Sentinel-2.
+        Observamos la cantidad de pozos que se encuentran en las cuencas de los ríos Limay, Rio Negro y Neuquén. Los datos de pozos fueron descargados de la base de la siguiente base de datos: <a href="https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv">https://datos.gob.ar/dataset/energia-produccion-petroleo-gas-por-pozo-capitulo-iv</a>. Esta capa de información contiene el número de pozos para el periodo de tiempo 1900 – 2023. Los puntos representan la ubicación de los pozos y los colores indican el tipo de recurso: convencional (naranja), no convencional (amarillo), y no informado (gris). También incluye las locaciones de pozos (polígonos negros) identificadas con inteligencia artificial usando imágenes de satélite Sentinel-2.
         </p>
         <p>
         <br></br>
@@ -238,7 +232,7 @@ const Main = props => {
           </li>
         </ul>
         <p>
-        Los indicadores de proximidad a ríos y lagos son utilizados para evaluar el riesgo potencial de contaminación de estos. Se utilizaron las capas de información obtenidas del IGN (Instituto Nacional Geográfico de Argentina) y se calculó la distancia entre los pozos, los ríos y lagos, las distancias límites son: de 1 km radial (mayor riesgo), 1 – 2 km radial (riesgo medio), > 3 km radial (bajo riesgo) basadas en la metodología de Meng 2015. Este indicador espacial representa la distancia desde los pozos a los ríos permanentes de las cuencas hidricas,los pozos que se encuentran a menos 1 km de distancia al rio indican que esa área tiene un alto riesgo potencial de contaminación comparado con las áreas del rio donde los pozos se ubican a más de 3 km de distancia.
+        Los indicadores de proximidad a ríos y lagos son utilizados para evaluar el riesgo potencial de contaminación de estos. Se utilizaron las capas de información obtenidas del Instituto Nacional Geográfico de Argentina (IGN) y se calculó la distancia entre los pozos, los ríos y lagos, las distancias límites son: de 1 km radial (mayor riesgo), 1 – 2 km radial (riesgo medio), > 3 km radial (bajo riesgo) basadas en la metodología de <a href="https://www.sciencedirect.com/science/article/abs/pii/S0048969715001667">Meng 2015</a>. Este indicador espacial representa la distancia desde los pozos a los ríos permanentes de las cuencas hídricas, los pozos que se encuentran a menos 1 km de distancia al rio indican que esa área tiene un alto riesgo potencial de contaminación comparado con las áreas del rio donde los pozos se ubican a más de 3 km de distancia.
         </p>
         <p>
         Los puntos representan los pozos no convencionales de hidrocarburos y los pozos sumideros. Las líneas representan la distancia desde un pozo hacia el rio. Los colores indican el riesgo alto medio y bajo.
