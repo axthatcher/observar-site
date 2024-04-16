@@ -185,7 +185,7 @@ const Main = props => {
               target="_blank"
               area-label="Bibwoe"
             >
-              <input type="button" value="Pozos de hidrocarburos"/>
+              <input type="button" value="Pozos de hidrocarburos ►"/>
             </Link>
           </li>
         </ul>
@@ -206,7 +206,7 @@ const Main = props => {
               target="_blank"
               area-label="Bibwoe"
             >
-              <input type="button" value="Interacción de pozos"/>
+              <input type="button" value="Interacción de pozos ►"/>
             </Link>
           </li>
         </ul>
@@ -227,7 +227,7 @@ const Main = props => {
               target="_blank"
               area-label="Bibwoe"
             >
-              <input type="button" value="Proximidad a ríos"/>
+              <input type="button" value="Proximidad a ríos ►"/>
             </Link>
           </li>
         </ul>
@@ -251,7 +251,7 @@ const Main = props => {
               target="_blank"
               area-label="Bibwoe"
             >
-              <input type="button" value="Proximidad a canales de riego"/>
+              <input type="button" value="Proximidad a canales de riego ►"/>
             </Link>
           </li>
         </ul>
@@ -272,7 +272,7 @@ const Main = props => {
               target="_blank"
               area-label="Bibwoe"
             >
-              <input type="button" value="Proximidad a localidades"/>
+              <input type="button" value="Proximidad a localidades ►"/>
             </Link>
           </li>
         </ul>
