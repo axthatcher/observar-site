@@ -70,7 +70,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contáctanos
+            Comentarios
           </a>
         </li>
       </ul>

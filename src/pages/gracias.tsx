@@ -23,7 +23,7 @@ const SecondPage = () => (
         <h1>Gracias por su mensaje.</h1>
         <p></p>
       </header>
-    <h2>Le contestaremos a usted cuanto antes.</h2>
+    <h2>Contestaremos cuanto antes.</h2>
     <p></p>
     <Link to="/" className="button">
         <RiArrowLeftSLine

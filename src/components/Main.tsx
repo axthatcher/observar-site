@@ -237,9 +237,12 @@ const Main = props => {
         className={`${props.article === 'contact' ? 'active' : ''} ${props.articleTimeout ? 'timeout' : ''}`}
         style={{ display: 'none' }}
       >
-        <h2 className="major">Contáctanos</h2>
+        <h2 className="major">Comentarios</h2>
         <form name="contact" action="/gracias" method="POST" data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
+        <p>
+        Por favor, si tienes alguna duda, comentario o sugerencia déjalo aquí.
+        </p>
         <div className="field half first">
             <label htmlFor="name">Nombre</label>
             <input type="text" name="name" id="name" />
